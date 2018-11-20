@@ -1,0 +1,15 @@
+---
+- analysis-entry: adder
+  source: platin
+  cycles: 24809
+  cache-max-cycles-instr: 12348
+  cache-min-hits-instr: 54
+  cache-max-misses-instr: 95
+  cache-max-cycles-stack: 0
+  cache-max-misses-stack: 0
+  cache-max-cycles-data: 2667
+  cache-min-hits-data: 0
+  cache-max-misses-data: 94
+  cache-max-stores-data: 33
+  cache-unknown-address-data: 127
+  cache-max-cycles: 15015

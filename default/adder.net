@@ -1,0 +1,31 @@
+[2, 2, 1]
+-0.795173 -0.718193 -0.216188 -0.254071 0.131629 -0.336447 
+-1.033987 -0.222358 0.160333 
+-0.795173, -0.718193, -0.216188, -0.254071, 0.131629, -0.336447, 
+-1.033987, -0.222358, 0.160333, 
+NUMBER OF LAYERS: 3
+NUMBER OF INPUTS: 2
+NUMBER OF OUTPUTS: 1
+NEURONS PER LAYER: 2 -> 2 -> 1
+THIS NEURAL NETWORK HAS BIAS NEURONS
+ACTIVATION FUNCTION: TANH (SYMMETRIC SIGMOID), ReLU]
+<============ Listing LAYER 0 ============>
+
+LAYER 0 NEURON 0 has 2 connections to LAYER 1:
+-> Connection to NEURON 0 in LAYER 1 has a WEIGHT of -0.795173
+-> Connection to NEURON 1 in LAYER 1 has a WEIGHT of -0.216188
+LAYER 0 NEURON 1 has 2 connections to LAYER 1:
+-> Connection to NEURON 0 in LAYER 1 has a WEIGHT of -0.718193
+-> Connection to NEURON 1 in LAYER 1 has a WEIGHT of -0.254071
+LAYER 0 has a BIAS NEURON with 2 connections
+-> Connection to NEURON 0 in LAYER 1 has a WEIGHT of 0.131629
+-> Connection to NEURON 1 in LAYER 1 has a WEIGHT of -0.336447
+
+<============ Listing LAYER 1 ============>
+
+LAYER 1 NEURON 0 has 1 connections to LAYER 2:
+-> Connection to NEURON 0 in LAYER 2 has a WEIGHT of -1.033987
+LAYER 1 NEURON 1 has 1 connections to LAYER 2:
+-> Connection to NEURON 0 in LAYER 2 has a WEIGHT of -0.222358
+LAYER 1 has a BIAS NEURON with 1 connections
+-> Connection to NEURON 0 in LAYER 2 has a WEIGHT of 0.160333
